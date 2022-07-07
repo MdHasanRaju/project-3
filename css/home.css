@@ -76,27 +76,53 @@ h3.title-sm {
 ------------------------------------------------------------ */
 /* job-available-section-1 for tablet device */
 @media only screen and (min-width: 601px) and (max-width: 991px) {
-  .job-available-section {
+  .job-available-section,
+  .startup-section {
     padding-bottom: 65px;
   }
   h3.title-sm {
     font-size: 22px;
     margin-bottom: 35px;
   }
- 
+
   .available-list li:nth-child(4n) {
     margin-right: 0 !important;
-}
-.available-list li:nth-child(6) {
+  }
+  .available-list li:nth-child(6) {
     margin-right: 2% !important;
-}
+  }
 
   .available-list li {
     width: 23.5% !important;
-    margin-right: 2%;
   }
   .available-list li span {
     font-size: 15px;
   }
+}
 
+/* job-available-section-1 for mobile device */
+@media only screen and (max-width: 600px) {
+  .job-available-section,
+  .startup-section {
+    padding-bottom: 70px;
+  }
+  h3.title-sm {
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
+
+  .available-list li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .available-list li {
+    width: 49%;
+    margin-right: 2%;
+  }
+
+  .available-list li span {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 6px;
+  }
 }
