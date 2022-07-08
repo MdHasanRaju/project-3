@@ -23,6 +23,72 @@ textarea {
   font-family: Helvetica !important;
 }
 
+
+
+/* hire-chat-section
+---------------------- */
+.hire-chat-section {
+  padding-bottom: 30px;
+}
+.hire-chat {
+  padding-bottom: 60px;
+}
+.hire-chat .row {
+  align-items: center;
+}
+.direct-banner h1, .direct-text h2, .hire-now h2 {
+  font-size: 32px;
+}
+.hire-now h2 {
+  color: #0e101a;
+  /* font-size: 36px; */
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+.button-sm {
+  width: 174px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.default-btn {
+  border-radius: 20px;
+  background-color: #2ce2a2;
+  border-color: #2ce2a2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px 11px;
+  line-height: normal;
+  transition: all .3s;
+}
+ 
+.btn { 
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+cursor: pointer;
+user-select: none; 
+}
+
+.hire-now-img {
+  text-align: center;
+}
+
+.hire-now p {
+  color: grey;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+
+
+
+
 /* jobs-available-section
   -------------------------- */
 .job-available-section,
