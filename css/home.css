@@ -86,6 +86,72 @@ user-select: none;
 }
 
 
+/* hire-chat-section responsiveness with media query
+------------------------------------------------------------ */
+/* job-available-section-both for tablet device */
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  
+  .hire-chat {
+    padding-bottom: 60px;
+}
+.direct-banner h1, .direct-text h2, .hire-now h2 {
+  font-size: 26px;
+}
+.bordered-btn, .default-btn {
+  font-size: 14px;
+  padding: 6px 9px;
+}
+.button-sm {
+  width: 160px;
+}
+.hire-now p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 35px;
+}
+
+
+}
+
+
+
+/* hire-chat-section for mobile device */
+@media only screen and  (max-width: 600px) {
+  .hire-chat-section {
+    padding-bottom: 20px;
+}
+.hire-chat {
+  padding-bottom: 60px;
+}
+.hire-chat-section .hire-chat:first-child .row {
+  flex-direction: column-reverse;
+}
+.hire-now {
+  margin-top: 30px;
+  text-align: center;
+}
+.hire-now h2 {
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+.hire-now h2 br {
+  display: none;
+}
+.button-sm {
+  width: 170px;
+  height: 40px;
+}
+.default-btn {
+  font-size: 15px;
+  padding: 6px 9px;
+}
+.hire-now p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+}
 
 
 
