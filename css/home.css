@@ -25,6 +25,83 @@ textarea {
 
 
 
+/* banner-section
+---------------------- */
+.direct-banner {
+  padding: 80px 0;
+}
+.direct-banner .row {
+  align-items: flex-end;
+}
+.direct-banner h1, .direct-text h2, .hire-now h2 {
+  font-size: 32px;
+}
+.direct-banner h1 {
+  color: #0e101a;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.direct-Candidates.first {
+  padding-right: 70px;
+}
+
+.direct-Candidates {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.direct-text {
+  padding-bottom: 10px;
+  margin-right: 8px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.direct-text h2 {
+  color: #0e101a;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+  .direct-img img {
+    max-width: 100%;
+}
+.direct-Candidates.two {
+  padding-left: 56px;
+}
+.direct-text .startup-btn {
+  width: 240px;
+  height: 40px;
+}
+.direct-text .startup-btn {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* banner-section responsiveness with media query
+------------------------------------------------------------ */
+/* banner-section for tablet device */
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+
+
+
+}
+
+
 /* hire-chat-section
 ---------------------- */
 .hire-chat-section {
